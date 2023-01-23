@@ -8,10 +8,16 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="hello">
-      <h1>Click me!</h1>
-    </div>
-
+    <form class="hidden" id="login-form">
+      <input
+        requirded
+        maxlength="15"
+        type="text"
+        placeholder="what is your name?"
+      />
+      <input type="submit" value="Log In" />
+    </form>
+    <h1 id="greeting" class="hidden"></h1>
     <script src="app.js"></script>
   </body>
 </html>
